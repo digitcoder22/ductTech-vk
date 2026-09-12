@@ -1569,9 +1569,9 @@ qboolean QVk_Init()
 	VkApplicationInfo appInfo = {
 		.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO,
 		.pNext = NULL,
-		.pApplicationName = "Quake 2",
+		.pApplicationName = "ductTech",
 		.applicationVersion = VK_MAKE_VERSION(3, 21, 0),
-		.pEngineName = "id Tech 2",
+		.pEngineName = "ductTech (engine)",
 		.engineVersion = VK_MAKE_VERSION(2, 0, 0),
 		.apiVersion = instanceVersion
 	};
