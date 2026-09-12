@@ -1495,7 +1495,7 @@ void Qcommon_Init (int argc, char **argv)
 		SCR_EndLoadingPlaque ();
 	}
 
-	Com_Printf ("====== Quake2 Initialized ======\n\n");	
+	Com_Printf ("====== ductTech somehow initialized ======\n\n");	
 }
 
 /*
