@@ -308,7 +308,7 @@ void Con_Init (void)
 
 	Con_CheckResize ();
 	
-	Com_Printf ("Console initialized.\n");
+	Com_Printf ("ductTech initialized.\n");
 
 //
 // register our commands
@@ -589,7 +589,7 @@ void Con_DrawConsole (float frac)
 	SCR_AddDirtyPoint (0,0);
 	SCR_AddDirtyPoint (viddef.width-1,lines-1);
 
-	Com_sprintf (version, sizeof(version), "vkQuake2 v%s", VKQUAKE2_VERSION);
+	Com_sprintf (version, sizeof(version), "ductTech v%s", VKQUAKE2_VERSION);
 
 	for (x=0 ; x<16 ; x++)
 		re.DrawChar (viddef.width-130*vid_hudscale->value+x*8*vid_hudscale->value, lines-12*vid_hudscale->value, 128 + version[x] );
