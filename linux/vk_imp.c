@@ -718,7 +718,7 @@ int Vkimp_SetMode( int *pwidth, int *pheight, int mode, qboolean fullscreen )
 						0, DefaultDepth(dpy, scrnum), InputOutput,
 						DefaultVisual(dpy, scrnum), mask, &attr);
 	XMapWindow(dpy, win);
-	XStoreName(dpy, win, "Quake 2 (Vulkan) "CPUSTRING);
+	XStoreName(dpy, win, "ductTech (Vulkan) "CPUSTRING);
 
 	XSizeHints *hints = XAllocSizeHints();
 	hints->flags=PMinSize;
