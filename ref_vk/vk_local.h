@@ -43,7 +43,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 #include "qvk.h"
 
-#define	REF_VERSION	"Vulkan (vkQuake2 v"VKQUAKE2_VERSION")"
+#define	REF_VERSION	"Vulkan (ductTech v"VKQUAKE2_VERSION")"
 
 // verify if VkResult is VK_SUCCESS
 #ifdef _DEBUG
