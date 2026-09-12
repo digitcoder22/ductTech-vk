@@ -183,7 +183,7 @@ void Vk_ScreenShot_f (void)
 void Vk_Strings_f(void)
 {
 	int i = 0;
-	char ver[] = { "vkQuake2 v"VKQUAKE2_VERSION };
+	char ver[] = { "dT v"VKQUAKE2_VERSION };
 	for (i = 0; i < strlen(ver); i++)
 		ver[i] += 128;
 
